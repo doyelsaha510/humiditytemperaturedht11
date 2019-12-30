@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <style>
+  #img{
+  opacity: 0.5;
+  }
+	  .container {
+	  position: relative;
+	}	
+		.center {
+	  position: absolute;
+	  left: 0;
+	  top: 30%;
+	  width: 100%;
+	  text-align: center;
+	  font-size: 30px;
+	  
+}
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  
+  <a class="navbar-brand" href="#"><img src="weather.png" style="width:50px;height:50px;"></a>
+  <h3><a class="navbar-brand" href="#">HelloWeather</a></h3>
+ 
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">About us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Iot solution</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="container">
+  <img id="img" src="background.jpeg" alt="Nature" style="width:100%;height:550px">
+  <div class="center">
+    <h4>Today's Weather</h4>
+    Temperature: <h3 style="display: inline;" id="temp"></h3> &#x2103;
+	<br><br>
+	Humidity: <h3 style="display: inline;" id="humid"></h3> %
+  </div>
+
+</div>
+
+<!-- <h3 id="temp"></h3> -->
+<!-- <br> -->
+<!-- <br> -->
+<!-- <h3 id="humid"></h3> -->
+<br>
+<br>
+<br>
+<div class="container">
+<h4>Real time Visulization of Temperature & Humidity Data</h4>
+<br>
+<br>
+<br>
+<div id="curve_chart"></div>
+</div>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
