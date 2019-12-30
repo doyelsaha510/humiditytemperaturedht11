@@ -1,13 +1,13 @@
 
   // Your web app's Firebase configuration
   var firebaseConfig = {
-    apiKey: "AIzaSyDHI_yqG77v1UiXmnHOe31llRz4PrOBvng",
-    authDomain: "parkingsystem-abf19.firebaseapp.com",
-    databaseURL: "https://parkingsystem-abf19.firebaseio.com",
-    projectId: "parkingsystem-abf19",
-    storageBucket: "parkingsystem-abf19.appspot.com",
-    messagingSenderId: "582384537116",
-    appId: "1:582384537116:web:6b916e5e61145eb2e359d9"
+    apiKey: "",
+    authDomain: "firebasedburl.firebaseapp.com",
+    databaseURL: "https://firebasedburl.firebaseio.com",
+    projectId: "firebasedburl9",
+    storageBucket: "firebasedburl.appspot.com",
+    messagingSenderId: "",
+    appId: ""
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
